@@ -77,4 +77,5 @@ function sha1(str) {
       .map(b => b.toString(16).padStart(2, '0'))
       .join('');
   });
+  
 }
